@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 function Type() {
   return (
-    <p className="pHome home-about-body" style={{padding:'1rem'}}>Software engineering student at the State University in Novi Pazar and a web developer </p>
+    <p className="pHome home-about-body" style={{padding:'1rem'}}> Dobrodošli na MP Auto Diler, vašem pouzdanom partneru u kupovini i prodaji polovnih automobila. Pregledajte našu široku ponudu i pronađite savršeno vozilo za vaše potrebe. </p>
   );
 }
 

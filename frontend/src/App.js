@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/preloader/Preloader";
 import Navbar from "./components/navBar/NavBar";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
+import About from "./components/Login/Login";
+import Projects from "./components/Register/register";
 import Resume from "./components/Resume/ResumeNew";
 import { ThemeContext } from "./Context/theme";
 import {

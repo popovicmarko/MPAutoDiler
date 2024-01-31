@@ -79,7 +79,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                About
+                Login
               </Nav.Link>
             </Nav.Item>
 
@@ -89,7 +89,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                Projects
+                Register
               </Nav.Link>
             </Nav.Item>
 
