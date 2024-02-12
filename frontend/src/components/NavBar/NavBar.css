@@ -168,3 +168,6 @@
 .dark-mode #toggle .toggle-inner {
   background-color: #202523;
 }
+.navbar{
+  background-color: orange;
+}
