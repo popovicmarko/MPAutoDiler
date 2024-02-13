@@ -204,4 +204,53 @@
   color: var(--clr-primary) !important;
 }
 
+.car-selection-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #f3f3f3;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 35px;
+}
+
+.search-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff4500;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.search-button:hover {
+  background-color: #e33e00;
+}
+
+/* Ovo je samo da spriječimo browser da doda vlastiti stil na fokus elementa */
+select:focus,
+.search-button:focus {
+  outline: none;
+}
+
 
