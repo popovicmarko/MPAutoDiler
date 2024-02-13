@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeIcon from "../../Assets/auto.png";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import Type from "./Type";
+import Home2 from "./Home2";
 import "./home.css";
 
 function Home() {
@@ -32,6 +33,7 @@ function Home() {
             </Col>
           </Row>
         </Container>
+        <Home2></Home2>
       </Container>
       
       <ScrollToTop />
